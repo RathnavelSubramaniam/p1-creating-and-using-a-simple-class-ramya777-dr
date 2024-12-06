@@ -24,9 +24,9 @@ public static void main(String[]args)
 {
 Person Person1 = new Person(" John"," Doe",30);
 Person Person2 = new Person(" Alice"," Smith",25);
-System.out.println("Person 1:" + Person1.getFullName());
- System.out.println("Person 2:" + Person2.getFullName());
+System.out.println("Person1:" + Person1.getFullName());
+ System.out.println("Person2:" + Person2.getFullName());
  double averageAge = (Person1.age + Person2.age) / 2.0;
- System.out.println("Average Age:" + averageAge);
+ System.out.println("Average age:" + averageAge);
      }
 }
